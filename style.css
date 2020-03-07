@@ -1,0 +1,39 @@
+.main-home {
+    background-image: url('./photo.jfif');
+    height: 100vh;
+    overflow: hidden;
+    color: rgb(20, 20, 20);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.bg-color{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.63) 0%, rgba(204,204,204,0.63) 51%, rgba(255,255,255,0.63) 100%);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+.formulario {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario > label {
+    margin-bottom: 5px;
+    font-size: 14pt;
+    color: #777;
+}
+
+.formulario > input {
+    margin-bottom: 20px;
+}
